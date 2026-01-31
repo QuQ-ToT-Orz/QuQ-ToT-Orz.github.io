@@ -40,7 +40,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: ''
+  linkedin_url: 'https://www.linkedin.com/in/xin-z-102a72296/'
 
 advanced_settings:
   ajax_loading: false
