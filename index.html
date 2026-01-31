@@ -5,14 +5,210 @@ description: QuQ-ToT-Orz
 featured_image: /images/Xin.jpg
 ---
 
+<style>
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+.skill-item {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 8px;
+  background: #f8f9fa;
+  transition: transform 0.2s;
+}
+.skill-item:hover {
+  transform: translateY(-3px);
+}
+.skill-item img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 0.5rem;
+}
+.skill-item span {
+  display: block;
+  font-size: 0.9rem;
+  color: #333;
+}
+.timeline {
+  position: relative;
+  margin: 2rem 0;
+  padding-left: 2rem;
+  border-left: 2px solid #ddd;
+}
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2.4rem;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #333;
+}
+.timeline-date {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.3rem;
+}
+.timeline-title {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+.timeline-desc {
+  color: #555;
+  font-size: 0.95rem;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+.project-card {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: box-shadow 0.2s;
+}
+.project-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.project-card h4 {
+  margin: 0 0 0.5rem 0;
+}
+.project-card p {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.project-tags span {
+  background: #e9ecef;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+.contact-section {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  text-align: center;
+}
+.contact-section a {
+  margin: 0 1rem;
+  color: #333;
+  text-decoration: none;
+}
+.contact-section a:hover {
+  text-decoration: underline;
+}
+</style>
+
 **生不带来，死不带去。**
 
-<br>
-<div class="contributions">
-	<p> </p>
-	<ul role="main" style="display:grid;grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));list-style:none;grid-gap:2em;">
-		<li style="display:grid;grid-template-columns:44em 1fr;grid-gap:0.5em;align-items:center;">
-			<img alt="" src="/assets/badges/me.png" style="max-width:100%;height:auto;width:44em;">
-		</li>
-	</ul>
+---
+
+## Skills
+
+<div class="skills-grid">
+  <div class="skill-item">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+    <span>Python</span>
+  </div>
+  <div class="skill-item">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+    <span>JavaScript</span>
+  </div>
+  <div class="skill-item">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+    <span>Java</span>
+  </div>
+  <div class="skill-item">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+    <span>Git</span>
+  </div>
+  <div class="skill-item">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+    <span>Docker</span>
+  </div>
+  <div class="skill-item">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux">
+    <span>Linux</span>
+  </div>
+</div>
+
+---
+
+## Experience
+
+<div class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-date">2023 - 2024</div>
+    <div class="timeline-title">Your Role / Position</div>
+    <div class="timeline-desc">Description of what you did, technologies used, achievements.</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">2020 - 2023</div>
+    <div class="timeline-title">Previous Role</div>
+    <div class="timeline-desc">Description of your responsibilities and accomplishments.</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">2016 - 2020</div>
+    <div class="timeline-title">Education / Degree</div>
+    <div class="timeline-desc">University name, major, relevant coursework or achievements.</div>
+  </div>
+</div>
+
+---
+
+## Projects
+
+<div class="projects-grid">
+  <div class="project-card">
+    <h4>Project Name</h4>
+    <p>Brief description of the project and what problem it solves.</p>
+    <div class="project-tags">
+      <span>Python</span>
+      <span>Data Analysis</span>
+    </div>
+  </div>
+  <div class="project-card">
+    <h4>Another Project</h4>
+    <p>Description of another cool project you've worked on.</p>
+    <div class="project-tags">
+      <span>JavaScript</span>
+      <span>Web</span>
+    </div>
+  </div>
+  <div class="project-card">
+    <h4>Research Project</h4>
+    <p>Academic or research work you want to highlight.</p>
+    <div class="project-tags">
+      <span>Machine Learning</span>
+      <span>Research</span>
+    </div>
+  </div>
+</div>
+
+---
+
+## Contact
+
+<div class="contact-section">
+  <p>Feel free to reach out!</p>
+  <a href="mailto:your.email@example.com">Email</a>
+  <a href="https://github.com/QuQ-ToT-Orz" target="_blank">GitHub</a>
+  <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
 </div>
