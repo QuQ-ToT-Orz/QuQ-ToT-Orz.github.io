@@ -48,17 +48,13 @@
 	}
 
 	h2 {
-		margin-top: 2rem;
+		margin-top: 0.5rem;
 		padding-bottom: 0.5rem;
 		border-bottom: 2px solid var(--accent-color);
 	}
 
 	hr {
-		margin: 2rem 0;
-		max-width: 45rem;
-		height: 1px;
-		border: none;
-		background: #ddd;
+		display: none;
 	}
 
 	blockquote,
