@@ -13,7 +13,12 @@
 
 	h1 {
 		padding-bottom: 0.5rem;
-		border-bottom: 2px solid var(--accent-color);
+		border-bottom: 2px solid transparent;
+		transition: border-bottom-color 0.2s ease;
+
+		&:hover {
+			border-bottom-color: var(--accent-color);
+		}
 
 		@include mq(tabletp) {
 			white-space: pre-line;
@@ -54,7 +59,12 @@
 	h2 {
 		margin-top: 0.5rem;
 		padding-bottom: 0.5rem;
-		border-bottom: 2px solid var(--accent-color);
+		border-bottom: 2px solid transparent;
+		transition: border-bottom-color 0.2s ease;
+
+		&:hover {
+			border-bottom-color: var(--accent-color);
+		}
 	}
 
 	hr {
