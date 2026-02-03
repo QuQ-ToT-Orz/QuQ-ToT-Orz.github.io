@@ -12,6 +12,8 @@
 	}
 
 	h1 {
+		padding-bottom: 0.5rem;
+		border-bottom: 2px solid var(--accent-color);
 
 		@include mq(tabletp) {
 			white-space: pre-line;
@@ -19,8 +21,10 @@
 	}
 
 	p {
-		margin-top: .25rem;
-		opacity: .6;
+		margin-top: 1rem;
+		font-size: 1.1rem;
+		line-height: 1.6;
+		color: #555;
 	}
 }
 
